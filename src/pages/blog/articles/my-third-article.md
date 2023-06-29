@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/ArticleLayout.astro"
-title: My Third Article
+title: Structure of Lessons
 date: 17 July 2022
 image: /images/my-third-article/cardimage.jpg
 ---
