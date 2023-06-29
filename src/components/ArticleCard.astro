@@ -33,6 +33,16 @@ const description =
               content.frontmatter.imageDescription ?? content.frontmatter.title
             }
           />
+          <img
+            width="300"
+            height="200"
+            loading={lazyLoading ? "lazy" : "eager"}
+            class="m-2 max-w-[300px] max-h-[200px] aspect-video"
+            src={content.frontmatter.imageTwo}
+            alt={
+              content.frontmatter.imageDescription ?? content.frontmatter.title
+            }
+          />
         </figure>
       </Fragment>
     ) : null

@@ -5,6 +5,7 @@ export interface Frontmatter {
   title: string;
   date: string;
   image?: string;
+  imageTwo?: string;
   imageDescription?: string;
   description: string;
   draft?: boolean;
