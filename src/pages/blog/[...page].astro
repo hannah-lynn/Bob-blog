@@ -7,26 +7,76 @@ import { MarkdownInstance, Page } from "astro";
 import config from "src/config";
 
 export interface Props {
-  page: Page<MarkdownInstance<Frontmatter>>,
+  page: Page<MarkdownInstance<Frontmatter>>;
 }
 
 export async function getStaticPaths({ paginate }) {
-  const allPosts = await Astro.glob<Frontmatter>('../../pages/blog/articles/*.md');
-  const posts = sortDateDescending(allPosts.filter((post) => post.frontmatter.draft != true));
+  const allPosts = await Astro.glob<Frontmatter>(
+    "../../pages/blog/articles/*.md"
+  );
+  const posts = sortDateDescending(
+    allPosts.filter((post) => post.frontmatter.draft != true)
+  );
   return paginate(posts, { pageSize: config.pageSize ?? 5 });
 }
 
 const { page } = Astro.props as Props;
 ---
 
+<nav class="bg-gray-800">
+  <div class="container mx-auto px-4">
+    <div class="flex items-center justify-between h-16">
+      <div class="flex items-center">
+        <a class="text-white text-xl font-bold" href="#">Logo</a>
+      </div>
+      <div class="hidden md:flex">
+        <a class="text-gray-300 hover:text-white px-3 py-2 rounded-md" href="#"
+          >Home</a
+        >
+        <a class="text-gray-300 hover:text-white px-3 py-2 rounded-md" href="#"
+          >About</a
+        >
+        <a class="text-gray-300 hover:text-white px-3 py-2 rounded-md" href="#"
+          >Services</a
+        >
+        <a class="text-gray-300 hover:text-white px-3 py-2 rounded-md" href="#"
+          >Contact</a
+        >
+      </div>
+      <div class="md:hidden">
+        <button
+          type="button"
+          class="text-gray-300 hover:text-white focus:outline-none focus:text-white"
+        >
+          <svg
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+<p>hello</p>
 <BaseLayout title="Blog" activeLink="blog">
-  {page.currentPage == 1 ? <h1
-    class="text-center text-3xl font-semibold bg-gradient-orange text-transparent bg-clip-text mb-8">
-    Recent Articles</h1> : null}
+  {
+    page.currentPage == 1 ? (
+      <h1 class="text-center text-3xl font-semibold bg-gradient-orange text-transparent bg-clip-text mb-8">
+        Recent Articles
+      </h1>
+    ) : null
+  }
 
   <div class="flex flex-wrap flex-col justify-center gap-12">
-    {page.data.map(post =>
-    <ArticleCard content={post} />)}
+    {page.data.map((post) => <ArticleCard content={post} />)}
   </div>
 
   <Pagination page={page} dir={"blog"} />

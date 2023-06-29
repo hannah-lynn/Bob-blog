@@ -7,8 +7,9 @@ export interface Props {
 }
 
 const { content } = Astro.props as Props;
-const { title, image, imageDescription, description } = content;
+const { title, image, imageTwo, imageDescription, description } = content;
 const date = new Date(content.date);
+console.log(content, "img");
 ---
 
 <BaseLayout title={title} description={description}>
@@ -24,6 +25,11 @@ const date = new Date(content.date);
         <img
           class="w-10/12 mx-auto aspect-video"
           src={image}
+          alt={imageDescription ?? title}
+        />
+        <img
+          class="w-10/12 mx-auto aspect-video"
+          src={imageTwo}
           alt={imageDescription ?? title}
         />
       </Fragment>
