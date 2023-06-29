@@ -3,7 +3,7 @@ import ArticleCard from "@components/ArticleCard.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { Frontmatter, sortDateDescending } from "src/misc";
 
-const allPosts = await Astro.glob<Frontmatter>("../pages/blog/articles/*.md");
+const allPosts = await Astro.glob<Frontmatter>("../pages/events/cities/*.md");
 const posts = sortDateDescending(
 	allPosts.filter((post) => post.frontmatter.draft != true)
 ).slice(0, 3);
@@ -24,7 +24,7 @@ const posts = sortDateDescending(
 			<h1
 				class="text-center bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent text-5xl mb-[0.7em]"
 			>
-				Hi there, I'm <span class="font-bold">CodeF</span>
+				Event Euphoria
 			</h1>
 			<p class="text-center">
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
