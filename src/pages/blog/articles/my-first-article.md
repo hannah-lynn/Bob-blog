@@ -1,7 +1,7 @@
 ---
 layout: "@layouts/ArticleLayout.astro"
 title: My First Article
-date: 10 July 2022
+date: 27 June 2023
 description: How a description would look like if added
 image: /images/my-third-article/cardimage.jpg
 ---
