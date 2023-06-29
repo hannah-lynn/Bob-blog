@@ -1,6 +1,7 @@
 ---
 import ArticleCard from "@components/ArticleCard.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
+import { moveCursor } from "readline";
 import { Frontmatter, sortDateDescending } from "src/misc";
 
 const allPosts = await Astro.glob<Frontmatter>("../pages/blog/articles/*.md");
@@ -82,6 +83,15 @@ const posts = sortDateDescending(
 						></path></svg
 					>
 				</a>
+			</div>
+			<div class="flex justify-center mt-4">
+				<a href="#" class="rounded-full bg-sky-700 p-2"
+					>Schedule a free class</a
+				>
+
+				<a href="#" class="rounded-full ml-4 bg-sky-700 p-2"
+					>Notes Shop</a
+				>
 			</div>
 		</div>
 	</section>
