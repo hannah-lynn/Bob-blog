@@ -2,7 +2,7 @@
 layout: "@layouts/ArticleLayout.astro"
 title: New York
 date: 28 June 2023
-description: How a description would look like if added
+description: Things to do
 image: /images/my-first-article/newyork.jpg
 ---
 

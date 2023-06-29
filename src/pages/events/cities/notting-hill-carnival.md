@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/ArticleLayout.astro"
-title: Notting hill
+title: Festivals in London
 date: 28 June 2023
 image: /images/my-second-article/londoncity.jpg
 
