@@ -31,6 +31,9 @@ module.exports = {
           "Courier New",
           "monospace",
         ],
+        newfont: [
+          "'Ysabeau SC', 'sans-serif'"
+        ]
       },
     },
   },
