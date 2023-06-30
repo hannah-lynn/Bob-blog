@@ -13,7 +13,7 @@ A responsive, personal blog template, built with Astro and Tailwind CSS.
 - SEO friendly
 - Client-Side search
 
-## 🧞 Commands
+## 🧞 Commands ok
 
 All commands are run from the root of the project, from a terminal:
 
