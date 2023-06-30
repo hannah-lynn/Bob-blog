@@ -3,7 +3,7 @@ layout: "@layouts/ArticleLayout.astro"
 title: New York
 date: 28 June 2023
 description: Things to do
-image: /images/my-first-article/newyork.jpg
+image: /images/my-first-article/squaretimes.jpg
 ---
 
 ## Things to do 
