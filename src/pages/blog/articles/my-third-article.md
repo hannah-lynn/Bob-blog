@@ -1,8 +1,8 @@
 ---
 layout: "@layouts/ArticleLayout.astro"
-title: My Third Article
-date: 17 July 2022
-image: /images/my-third-article/cardimage.jpg
+title: Law Student 
+date: 1 June 2023
+image: "/images/my-third-article/chair.png"
 ---
 
 ![Icon](https://i.ytimg.com/vi/7Tt6Yv9czz8/maxresdefault.jpg)
