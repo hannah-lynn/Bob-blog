@@ -1,7 +1,7 @@
 ---
 layout: "@layouts/ArticleLayout.astro"
 title: Gallery
-date: 28/06/2023
+date: 28 June 2023
 image: /images/my-third-article/cardimage.jpg
 ---
 
