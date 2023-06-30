@@ -1,10 +1,10 @@
 export default {
   pageSize: 5,
   metaData: {
-    authorName: "CodeF",
+    authorName: "Cathy X",
     summary: "My personal blog",
-    category: "Blog",
-    keywords: ["Blog", "Astro"],
+    category: "Resource",
+    keywords: ["Resource", "Astro"],
     icon: "favicon.ico",
   },
 };
