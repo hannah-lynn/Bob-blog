@@ -1,4 +1,4 @@
-{
+ {
   "name": "CodeF",
   "version": "1.0.0",
   "private": true,
@@ -22,6 +22,7 @@
     "theme-change": "^2.1.0"
   },
   "dependencies": {
+    "@astrojs/react": "^2.2.1",
     "fuse.js": "^6.6.2",
     "swiper": "^9.4.1"
   }
