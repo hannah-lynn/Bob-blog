@@ -15,3 +15,9 @@ Beware of seagulls
 Located in Bath 
 
 ![Icon](https://images.unsplash.com/photo-1623438672645-f8bafb8cc2ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9tYW4lMjBiYXRoc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60)
+
+<H2> 3. Blackpool
+
+If you like
+
+![Icon](https://a.cdn-hotels.com/gdcs/production82/d1885/0c35a2bd-1c80-4ce6-9bbf-a6522664e352.jpg?impolicy=fcrop&w=800&h=533&q=medium)
