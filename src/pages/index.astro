@@ -16,26 +16,33 @@ const posts = sortDateDescending(
 		<img
 			width="200"
 			height="200"
-			src="images/codef.jpg"
+			src="images/LSE ACS logo.jpg"
 			alt="avatar"
 			class="rounded-md h-fit self-center justify-self-center"
 		/>
 		<div class="flex flex-col flex-wrap flex-grow">
 			<h1
-				class="text-center bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent text-5xl mb-[0.7em]"
+				class="text-center bg-gradient-to-r from-yellow-500 to-yellow-900 bg-clip-text text-transparent text-5xl mb-[0.7em]"
 			>
-				Hi there, I'm <span class="font-bold">CodeF</span>
+				Welcome to the<b> LSE</b> African and Caribbean society!
 			</h1>
-			<p class="text-center">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
-				cum hic, odio dignissimos iure, est inventore rerum deleniti
-				itaque amet dolorem suscipit nemo ex tempora. Tempora fugiat
-				veniam impedit porro.
+			<p class="text-center pb-9s">
+				Celebrating students of African and Caribbean descent at London
+				School of Economics and Political science.
 			</p>
-			<div class="flex flex-wrap justify-center gap-5 mt-4">
+			<p>
+				Winners of LSE SU Gold star award and the 2023 Society of the
+				year, We are dedicated to creating a culture of community,
+				diversity and inclusivity. Hence our mission is not only to
+				enhance the experiences of current students by helping to
+				navigate challenging spheres but also to promote and encourage
+				incoming students through outreach and workshops targeting
+				towards increasing their motivation and growth mindset.
+			</p>
+			<div class="flex flex-wrap justify-center gap-6 mt-4">
 				<a
 					class="w-8 h-8 flex scale-1 hover:scale-125 transition-[scale] justify-center"
-					href="https://www.youtube.com/"
+					href="https://www.tiktok.com/@lsesu.acs?_t=8Vx34e93Aaj&_r=1"
 					target="_blank"
 					rel="noreferrer noopener"
 				>
@@ -52,7 +59,7 @@ const posts = sortDateDescending(
 				</a>
 				<a
 					class="w-8 h-8 flex scale-1 hover:scale-125 transition-[scale] justify-center"
-					href="https://www.twitter.com/"
+					href="https://twitter.com/LSESUACS"
 					target="_blank"
 					rel="noreferrer noopener"
 				>
@@ -69,34 +76,31 @@ const posts = sortDateDescending(
 				</a>
 				<a
 					class="w-8 h-8 flex scale-1 hover:scale-125 transition-[scale] justify-center"
-					href="https://www.linkedin.com/"
+					href="https://www.instagram.com/lsesu.acs/?hl=en"
 					target="_blank"
 					rel="noreferrer noopener"
 				>
-					<span class="sr-only">Link to my LinkedIn</span>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 448 512"
-						fill="#0e76a8"
-					>
-						<path
-							d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-						></path></svg
-					>
-				</a>
+					<span class="sr-only">Link to my Instagram</span>
+					<svg:></svg:></a
+				>
 			</div>
 		</div>
 	</section>
+</BaseLayout>
 
-	<section>
-		<h2
-			class="mx-auto text-center mb-8 bg-gradient-orange text-transparent bg-clip-text text-4xl border-b-2 border-red-300 font-semibold w-fit"
+<section>
+	<h2
+		class="mx-auto text-center mb-8 bg-gradient-orange text-transparent bg-clip-text text-4xl border-b-2 border-red-300 font-semibold w-fit"
+	>
+		<a
+			href="mailto:yourmailinglist@example.com"
+			target="_blank"
+			style="display: block; text-align: center; font-size: 24px; color: brown; text-decoration: underline;"
+			>Join Our Mailing List</a
 		>
-			Featured Articles
-		</h2>
 
 		<div class="flex flex-wrap flex-col justify-center gap-12">
 			{posts.map((post) => <ArticleCard content={post} />)}
 		</div>
-	</section>
-</BaseLayout>
+	</h2>
+</section>

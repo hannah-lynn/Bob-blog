@@ -1,6 +1,6 @@
 ---
 layout: "@layouts/ArticleLayout.astro"
-title: My First Article
+title: Sponsors and Donation
 date: 10 July 2022
 description: How a description would look like if added
 image: /images/my-third-article/cardimage.jpg
