@@ -52,25 +52,37 @@ const posts = allPosts.filter((post) => post.frontmatter.draft != true);
             </p>
             <ul class="timeline-list">
                 <li>
-                    <a href="/asia" class="timeline-link">
+                    <a
+                        href="https://hsqlfs-3000.csb.app/blog/articles/Asia/"
+                        class="timeline-link"
+                    >
                         <span class="bullet-point">&#9992;</span>
                         Asia
                     </a>
                 </li>
                 <li>
-                    <a href="/europe" class="timeline-link">
+                    <a
+                        href="https://hsqlfs-3000.csb.app/blog/articles/Europe/"
+                        class="timeline-link"
+                    >
                         <span class="bullet-point">&#9992;</span>
                         Europe
                     </a>
                 </li>
                 <li>
-                    <a href="/africa" class="timeline-link">
+                    <a
+                        href="https://hsqlfs-3000.csb.app/blog/articles/Africa/"
+                        class="timeline-link"
+                    >
                         <span class="bullet-point">&#9992;</span>
                         Africa
                     </a>
                 </li>
                 <li>
-                    <a href="/america" class="timeline-link">
+                    <a
+                        href="https://hsqlfs-3000.csb.app/blog/articles/America/"
+                        class="timeline-link"
+                    >
                         <span class="bullet-point">&#9992;</span>
                         America
                     </a>
@@ -85,7 +97,7 @@ const posts = allPosts.filter((post) => post.frontmatter.draft != true);
             <div class="flex flex-row space-x-4 mb-4">
                 {
                     posts
-                        .slice(0, 3)
+                        .slice(4, 7)
                         .map((post) => <ArticleCard content={post} />)
                 }
             </div>
@@ -104,7 +116,7 @@ const posts = allPosts.filter((post) => post.frontmatter.draft != true);
             <div class="flex flex-row space-x-4 mb-4">
                 {
                     posts
-                        .slice(3, 5)
+                        .slice(7, 9)
                         .map((post) => <ArticleCard content={post} />)
                 }
                 <p class="section-description3">

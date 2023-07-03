@@ -1,11 +1,6 @@
 ---
 layout: "@layouts/ArticleLayout.astro"
-title: template
-# description: example
-date: 00 July 2022
-image: /images/...
-imageDescription: template text
-draft: true
+title: America test
+description: How a description would look like if added
+image: /images/my-third-article/upcoming.jpg
 ---
-
-content here
