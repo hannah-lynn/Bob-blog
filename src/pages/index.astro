@@ -17,7 +17,7 @@ const posts = allPosts.filter((post) => post.frontmatter.draft != true);
                 overflow: hidden;
                 white-space: nowrap;
                 width: 0;
-                animation: typing 3s steps(14) forwards;
+                animation: typing 2.5s steps(14) forwards;
             }
 
             @keyframes typing {
@@ -39,25 +39,20 @@ const posts = allPosts.filter((post) => post.frontmatter.draft != true);
             <h2
                 class="typing-animation text-center bg-gradient-to-r from-sky-400 to-indigo-900 bg-clip-text text-transparent text-4xl mb-[0.7em]"
             >
-                The World Is Waiting For You
+                The World Is Waiting For You 👋
             </h2>
         </div>
     </section>
     <section class="mb-10">
         <style>
-            .highlight {
-                color: #60a5fa;
-                font-size: 1.2em;
-                font-weight: bold;
-            }
-
             .paragraph-margin {
                 margin-top: 1.5em; /* Adjust the margin value as per your preference */
             }
         </style>
 
         <p class="text-center text-xxl mt-[0.7em]">
-            <span class="highlight"
+            <span
+                class="bg-gradient-to-r from-sky-400 to-indigo-900 bg-clip-text text-transparent text-xxl mb-[0.7em] font-bold"
                 >Solo is a choice, but adventure is an attitude.</span
             >
             It is an opportunity to discover not only new destinations but also the
@@ -86,9 +81,12 @@ const posts = allPosts.filter((post) => post.frontmatter.draft != true);
             <Swiper client:load />
             <h1 class="section-title">Explore the world</h1>
             <p class="section-description">
-                GoGreen is a sustainable living initiative aimed at promoting
-                eco-friendly practices and raising awareness about environmental
-                conservation.
+                Embark on a visual journey through captivating destinations
+                across continents. Browse through my collection of favorite
+                travel photos, capturing the most memorable moments from my
+                adventures in Asia, Europe, Africa, and America. Click on an
+                image or the bullet point to explore more and start planning
+                your next adventure
             </p>
             <ul class="timeline-list">
                 <li>
@@ -142,9 +140,9 @@ const posts = allPosts.filter((post) => post.frontmatter.draft != true);
                 }
             </div>
             <p class="section-description2">
-                GoGreen is a sustainable living initiative aimed at promoting
-                eco-friendly practices and raising awareness about environmental
-                conservation.
+                Connect with fellow travelers, expand your social circle, and
+                create lasting memories by meeting new friends along your
+                journey
             </p>
         </div>
     </section>
@@ -160,9 +158,9 @@ const posts = allPosts.filter((post) => post.frontmatter.draft != true);
                         .map((post) => <ArticleCard content={post} />)
                 }
                 <p class="section-description3">
-                    GoGreen is a sustainable living initiative aimed at
-                    promoting eco-friendly practices and raising awareness about
-                    environmental conservation.
+                    While these pages are currently under development, we're
+                    eagerly preparing a collection of exclusive deals and
+                    unforgettable events to enhance your travel experiences
                 </p>
             </div>
         </div>
