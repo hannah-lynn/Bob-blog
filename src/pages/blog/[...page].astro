@@ -19,7 +19,7 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props as Props;
 ---
 
-<BaseLayout title="Blog" activeLink="blog">
+<BaseLayout title="Resource" activeLink="blog">
   {page.currentPage == 1 ? <h1
     class="text-center text-3xl font-semibold bg-gradient-orange text-transparent bg-clip-text mb-8">
     Recent Articles</h1> : null}

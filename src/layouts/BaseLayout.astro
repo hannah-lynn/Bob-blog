@@ -32,9 +32,9 @@ const { navLinks } = pageSize;
       <div class="p-4">
         <!-- Logo -->
         <img
-          height="50"
-          width="100"
-          src="/images/codef-logo.png"
+          height="200"
+          width="200"
+          src="/images/logo.png"
           alt="code f logo"
           class="rounded-md h-fit self-center justify-self-center"
         />
@@ -126,6 +126,12 @@ const { navLinks } = pageSize;
       </nav>
     </header>
 
+    <div
+      class="bg-[url('/images/home.jpg')] bg-cover top-0 left-0 bottom-0 right-0 fixed"
+      style={{ zIndex: -1 }}
+    >
+    </div>
+
     <main id="main" class="container mx-auto">
       <slot />
     </main>
@@ -145,7 +151,7 @@ const { navLinks } = pageSize;
     <footer class="border-t px-4 py-6 mt-6">
       <p class="text-center text-sm">
         &copy; {new Date().getFullYear()}
-        CodeF
+        Cathy Xia
       </p>
     </footer>
     <style>
@@ -231,6 +237,20 @@ const { navLinks } = pageSize;
         }
       }
     </style>
+
+    <style>
+      html[data-theme="night"]::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: -1;
+      }
+    </style>
+
     <script>
       // Navigation / Hamburger menu - control
       const nav = document.querySelector<HTMLUListElement>("#primary-nav");
