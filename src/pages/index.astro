@@ -10,31 +10,71 @@ const posts = allPosts.filter((post) => post.frontmatter.draft != true);
 
 <BaseLayout title="World" activeLink="home">
     <section
-        class="flex flex-col sm:flex-row justify-center max-w-[90%] w-[52rem] mx-auto gap-12 mb-48"
+        class="flex flex-col sm:flex-row justify-center max-w-[90%] w-[52rem] mx-auto gap-12 mb-20"
     >
-        <div class="flex flex-col flex-wrap flex-grow">
+        <style>
+            .typing-animation {
+                overflow: hidden;
+                white-space: nowrap;
+                width: 0;
+                animation: typing 3s steps(14) forwards;
+            }
+
+            @keyframes typing {
+                0% {
+                    width: 0;
+                }
+                100% {
+                    width: 100%;
+                }
+            }
+        </style>
+
+        <div class="flex flex-col flex-wrap flex-grow-1">
             <h1
                 class="text-center bg-gradient-to-r from-sky-400 to-indigo-900 bg-clip-text text-transparent text-7xl mb-[0.7em]"
             >
-                Solo Adventurer<br />
-                <span class="block text-4xl">The World Is Waiting For You</span>
+                Solo Adventurer
             </h1>
-
-            <p class="text-center">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
-                cum hic, odio dignissimos iure, est inventore rerum deleniti
-                itaque amet dolorem suscipit nemo ex tempora. Tempora fugiat
-                veniam impedit porro........
-            </p>
+            <h2
+                class="typing-animation text-center bg-gradient-to-r from-sky-400 to-indigo-900 bg-clip-text text-transparent text-4xl mb-[0.7em]"
+            >
+                The World Is Waiting For You
+            </h2>
         </div>
     </section>
+    <section class="mb-10">
+        <style>
+            .highlight {
+                color: #60a5fa;
+                font-size: 1.2em;
+                font-weight: bold;
+            }
 
-    <p class="text-center">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem cum
-        hic, odio dignissimos iure, est inventore rerum deleniti itaque amet
-        dolorem suscipit nemo ex tempora. Tempora fugiat veniam impedit
-        porro........
-    </p>
+            .paragraph-margin {
+                margin-top: 1.5em; /* Adjust the margin value as per your preference */
+            }
+        </style>
+
+        <p class="text-center text-xxl mt-[0.7em]">
+            <span class="highlight"
+                >Solo is a choice, but adventure is an attitude.</span
+            >
+            It is an opportunity to discover not only new destinations but also the
+            depths of your own being. Let the winds of curiosity guide you as you
+            set foot on the path less traveled.
+        </p>
+    </section>
+
+    <section
+        class="flex flex-col sm:flex-row justify-center max-w-[90%] w-[52rem] mx-auto gap-12 mb-40"
+    >
+        <p class="text-center text-xxl mb-[0.7em] paragraph-margin">
+            Open your eyes to the beauty of this world, experience the kindness
+            of fellow human beings, and savor the precious moments of everyday
+            life.
+        </p>
+    </section>
 
     <section class="home-page-section">
         <div class="container">

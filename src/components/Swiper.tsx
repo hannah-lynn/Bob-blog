@@ -17,28 +17,49 @@ export default () => {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <img
-          class="block w-full"
-          src="/images/home page image/China.jpg"
-          alt=""
-        />
+        <a href="https://hsqlfs-3000.csb.app/blog/articles/Asia/">
+          <img
+            class="block w-full"
+            src="/images/home page image/China.jpg"
+            alt=""
+          />
+        </a>
       </SwiperSlide>
       <SwiperSlide>
-        <img class="block w-full" src="/images/home page image/UK.jpg" alt="" />
+        <a href="https://hsqlfs-3000.csb.app/blog/articles/Europe/">
+          <img
+            class="block w-full"
+            src="/images/home page image/UK.jpg"
+            alt=""
+          />
+        </a>
       </SwiperSlide>
       <SwiperSlide>
-        <img
-          class="block w-full"
-          src="/images/home page image/America.jpg"
-          alt=""
-        />
+        <a href="https://hsqlfs-3000.csb.app/blog/articles/America/">
+          <img
+            class="block w-full"
+            src="/images/home page image/America.jpg"
+            alt=""
+          />
+        </a>
       </SwiperSlide>
       <SwiperSlide>
-        <img
-          class="block w-full"
-          src="/images/home page image/Africa.jpg"
-          alt=""
-        />
+        <a href="https://hsqlfs-3000.csb.app/blog/articles/Africa/">
+          <img
+            class="block w-full"
+            src="/images/home page image/Africa.jpg"
+            alt=""
+          />
+        </a>
+      </SwiperSlide>
+      <SwiperSlide>
+        <a href="https://hsqlfs-3000.csb.app/blog/articles/Asia/">
+          <img
+            class="block w-full"
+            src="/images/home page image/Thailand.jpg"
+            alt=""
+          />
+        </a>
       </SwiperSlide>
       ...
     </Swiper>
