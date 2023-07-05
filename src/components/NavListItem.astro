@@ -12,7 +12,7 @@ const url = baseSite + (navLink === 'home' ? '' : `${navLink}/`);
 ---
 
 <li class:list={[{ 'current-page' : navLink===activeLink
-  }, "after:block after:mx-auto after:h-[0.15em] after:bottom-0 after:w-0 after:bg-green-700 dark:after:bg-amber-400 after:transition-[all_ease_in_out_300ms] after:mt-1 hover:after:w-full"
+  }, "after:block after:mx-auto after:h-[0.15em] after:bottom-0 after:w-0 after:bg-green-100 dark:after:bg-amber-100 after:transition-[all_ease_in_out_300ms] after:mt-1 hover:after:w-full"
   ]}>
   <a href={url} tabindex={navLink===activeLink? -1 : null} class:list={[{'current-page': navLink===activeLink
     }, "flex hover:text-black dark:hover:text-white p-1" ]}>
