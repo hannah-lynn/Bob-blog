@@ -6,7 +6,7 @@ import config from "src/config.js";
 export interface Props {
   title: string;
   description?: string;
-  activeLink?: string;
+  activeLink?: string; 
 }
 
 const {
@@ -156,11 +156,11 @@ const { navLinks } = pageSize;
         --fill-color: 142 72% 29%;
         --stroke-color: 217 33% 17%;
         --hamburger-bg: 0 0% 30%;
-        color-scheme: dark;
+        color-scheme: Dark ;
       }
 
       html[data-theme="light"] {
-        --fill-color: 173 80% 40%;
+        --fill-color: 173 80% 40%; 
         --stroke-color: 213 27% 84%;
         --hamburger-bg: 0 0% 70%;
         color-scheme: light;
@@ -199,7 +199,7 @@ const { navLinks } = pageSize;
 
     <style is:global>
       ::selection {
-        background-color: hsl(var(--a));
+        background-color: hsl(var(--a)); 
         color: hsl(var(--ac));
       }
 
