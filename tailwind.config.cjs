@@ -16,7 +16,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        "gradient-orange": "linear-gradient(to right, #f97316, #e11d48)",
+        "gradient-green": "linear-gradient(to right, #f97316, #e11d48)",
       },
       fontFamily: {
         mono: [
