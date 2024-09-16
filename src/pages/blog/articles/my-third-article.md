@@ -1,15 +1,34 @@
 ---
 layout: "@layouts/ArticleLayout.astro"
-title: My Third Article
-date: 17 July 2022
-image: /images/my-third-article/cardimage.jpg
+title: Places To Go In London
+date: 28 June 2023
+image: /images/my-third-article/pastlepink.png
 ---
+<head>
+  <style>
+    body {
+      background-color: #F8C8DC;
+    }
+  </style>
+</head>
+<body>
 
-![Icon](https://i.ytimg.com/vi/7Tt6Yv9czz8/maxresdefault.jpg)
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque illo incidunt odit ex mollitia eligendi at eaque consequatur, sequi in repellat fuga qui itaque natus. Ducimus laboriosam, nihil nobis eum rerum facilis, quidem consequatur eligendi provident id in. Quae architecto rem repellendus nam, autem ullam facilis dolores veniam, impedit itaque similique deserunt dolorum eveniet nemo, dolore blanditiis assumenda laborum corporis ut! Fugiat earum molestias voluptatum! Quae recusandae qui inventore sapiente quod dolorum aspernatur ratione eveniet, similique modi dignissimos nihil ut.
+<H2> 1. SEA Life </H2>
 
-Aliquam, fugiat! Nisi saepe maiores neque minima, voluptatibus maxime, architecto debitis molestiae voluptatum eaque a tempore voluptates. Laboriosam, odit dolor. Explicabo facere exercitationem saepe nobis temporibus iure, repellendus atque rem quisquam hic reiciendis aliquid architecto, inventore repudiandae. Incidunt vero, rem obcaecati quam nesciunt distinctio minus voluptas perferendis alias error unde, repellat amet, pariatur nobis voluptatum iste quo. Debitis, ducimus! In nostrum, rerum quam explicabo quaerat cupiditate eos, distinctio officia tempora cumque, fuga consequuntur quas perferendis voluptates sit quos. Quod, tenetur.
+They have fishes, sharks, turtles and pengiuns. Also you are near the river and other attractions like the Shrek's Adventure and the London Dungeons. 
 
-Repellendus alias accusamus reprehenderit quam, qui, quae dolorem nihil, repellat necessitatibus fugit assumenda. Iste, repellendus obcaecati aliquam molestias perspiciatis eligendi unde nisi eius, reiciendis est assumenda cupiditate similique totam consequuntur excepturi! Optio iste obcaecati accusantium autem neque voluptatibus illo adipisci hic, blanditiis facere ipsum alias molestiae pariatur modi mollitia deserunt sunt. Officia natus corporis incidunt quasi odit, fugiat odio exercitationem explicabo, dicta excepturi earum vitae deserunt est obcaecati expedita libero esse mollitia ipsam nobis inventore quis quae. Rerum, non iusto.
+![Icon](https://images.unsplash.com/photo-1516888938016-b58ec6613741?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2VhJTIwbGlmZSUyMGxvbmRvbiUyMGFxdWFyaXVtfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60)
 
-Sequi, sit. Aliquid, cumque adipisci? Provident nobis saepe quia voluptatibus consequuntur itaque deserunt fuga tempore expedita hic ipsum amet sequi, placeat soluta natus, pariatur explicabo, eligendi commodi? Recusandae reprehenderit quidem maiores explicabo exercitationem porro accusantium ipsum laudantium sapiente, repellendus omnis minima pariatur tempora iure non excepturi odit distinctio, totam eos, ut alias dolores hic esse nesciunt. Quia libero neque iure vel! Molestiae suscipit cupiditate illum a, sit labore corrupti non tenetur officiis voluptatum nulla, deleniti nam iure quo sed vel?
+<H2> 2. Ballie Ballerson </H2>
+
+This is a ball pit but not the kind for children. It is perfect for taking cute photos and they have cheap pizza and drinks all in one place.
+
+![Icon](https://images.unsplash.com/photo-1594637551660-7bd7fd426a1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsbCUyMHBpdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60)
+
+<H2> 3. London Bridge </H2>
+
+There is so much in London Bridge my favourite place here is RVU of course. This place is really busy so if you do not like that this may not be the place for you.
+
+![Icon](https://images.unsplash.com/photo-1610390370064-4890cf703fd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bG9uZG9uJTIwYnJpZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60)
+
+</body>
